@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The CyanogenMod Project
+<!-- 
+     Copyright (C) The CyanogenMod Project
+     Copyright (C) The OmiROM Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,9 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="backlight_timeout_entries">
         <item>預設（1.6秒）</item>
-        <item>0.03秒</item>
-        <item>0.12秒</item>
-        <item>0.25秒</item>
         <item>0.5秒</item>
         <item>2秒</item>
         <item>5秒</item>

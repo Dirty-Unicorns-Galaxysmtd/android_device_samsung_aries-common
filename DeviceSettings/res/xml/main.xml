@@ -1,23 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Copyright (C) The CyanogenMod Project
+     Copyright (C) The OmiROM Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<PreferenceCategory
-                android:title="@string/mackay_settings_title"
-                android:key="category_mackay">
-                <PreferenceScreen
-                android:key="processor_settings"
-                android:title="@string/mackay_settings_title"
-                android:summary="@string/mackay_settings_summary">
-                </PreferenceScreen>
-	</PreferenceCategory>
-
-	<PreferenceCategory
     	android:title="@string/category_screen_title">
-	    <!-- Color tuning -->
-	    <org.omnirom.device.ColorTuningPreference 
-	        android:key="color_tuning"
-	        android:title="@string/color_tuning_title_head"
-	        android:summary="@string/color_tuning_summary_head" />
 	    <!-- mDNIe Options -->
 	    <ListPreference
 	        android:key="mdnie"
@@ -41,19 +42,6 @@
 	</PreferenceCategory>
 
 	<PreferenceCategory
-            android:title="@string/category_led_title"
-                android:key="category_led">
-	    <!-- LED notification setting -->
-		<CheckBoxPreference
-			android:key="bln"
-			android:title="@string/bln_head"
-			android:summaryOn="@string/bln_on"
-			android:summaryOff="@string/bln_off"
-                android:persistent="true" />
-	</PreferenceCategory>
-
-
-	<PreferenceCategory
         android:title="@string/category_radio_title"
         android:key="category_radio">
 	    <!-- UMTS/HSDPA/HSUPA settings -->
@@ -64,6 +52,25 @@
 	        android:entries="@array/hspa_entries"
             android:entryValues="@array/hspa_entries_values"
             android:defaultValue="23" />
+	</PreferenceCategory>
+
+	<PreferenceCategory
+                android:title="@string/category_tvout_title"
+                android:key="category_tvout">
+		<CheckBoxPreference
+			android:key="tvout_enable"
+			android:title="@string/tvout_enable_head"
+			android:summaryOn="@string/tvout_enable_summary_on"
+			android:summaryOff="@string/tvout_enable_summary_nocable"
+			android:persistent="false"
+			android:enabled="false" />
+		<ListPreference
+			android:key="tvout_system"
+			android:title="@string/tvout_system_head"
+			android:summary="@string/tvout_system_summary"
+			android:entries="@array/tvout_system_entries"
+			android:entryValues="@array/tvout_system_entries_values"
+			android:defaultValue="2" />
 	</PreferenceCategory>
 
         <PreferenceCategory
@@ -91,74 +98,6 @@
                 android:title="@string/deskdock_audio_title_head"
                 android:summaryOn="@string/deskdock_audio_summary_on"
                 android:summaryOff="@string/deskdock_audio_summary_off"
-                android:persistent="true" />
-        </PreferenceCategory>
-
-        <PreferenceCategory
-            android:title="@string/category_vibration_title">
-            <!-- Vibration -->
-            <org.omnirom.device.VibrationPreference
-                android:key="vibration"
-                android:title="@string/vibration_title_head"
-                android:summary="@string/vibration_summary_head" />
-         </PreferenceCategory>
-
-	<PreferenceCategory
-                android:title="@string/category_wifi_title"
-                android:key="category_wifi">
-		<CheckBoxPreference
-			android:key="wifi_speed"
-			android:title="@string/wifi_speed_head"
-			android:summaryOn="@string/wifi_speed_on"
-			android:summaryOff="@string/wifi_speed_off"
-                android:persistent="true" />
-	</PreferenceCategory>
-
-	<PreferenceCategory
-                android:title="@string/category_blx_preference_title"
-                android:key="category_blx_preference">
-	        <org.omnirom.device.BLXPreference 
-	                android:key="blx"
-	                android:title="@string/blx_title_head"
-	                android:summary="@string/blx_summary_head" />
-	</PreferenceCategory>
-
-	<PreferenceCategory
-            android:title="@string/category_navigation_title"
-                android:key="category_navigation">
-	        <!-- Navbar setting -->
-		<CheckBoxPreference
-			android:key="navbar"
-			android:title="@string/navbar_head"
-			android:summaryOn="@string/navbar_on"
-			android:summaryOff="@string/navbar_off"
-                android:persistent="true" />
-	</PreferenceCategory>
-
-	<PreferenceCategory
-            android:title="@string/category_touchwake_title"
-                android:key="category_touchwake">
-                <!-- Touchwake active -->
-		<CheckBoxPreference
-			android:key="touchwakeactive"
-			android:title="@string/touchwakeactive_head"
-			android:summaryOn="@string/touchwakeactive_on"
-			android:summaryOff="@string/touchwakeactive_off"
-                android:persistent="true" />
-	        <org.omnirom.device.TouchWakePreference
-	                android:key="touchwakedelay"
-	                android:title="@string/touchwakedelay_title_head"
-	                android:summary="@string/touchwakedelay_summary_head" />
-	</PreferenceCategory>
-
-        <PreferenceCategory
-            android:title="@string/category_apply_settings"
-            android:key="category_apply">
-            <CheckBoxPreference
-                android:key="apply"
-                android:title="@string/apply_title"
-                android:summaryOn="@string/apply_summary_on"
-                android:summaryOff="@string/apply_summary_off"
                 android:persistent="true" />
         </PreferenceCategory>
 

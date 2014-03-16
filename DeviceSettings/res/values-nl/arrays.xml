@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The CyanogenMod Project
+<!-- 
+     Copyright (C) The CyanogenMod Project
+     Copyright (C) The OmiROM Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,9 +26,6 @@
     </string-array>
     <string-array name="backlight_timeout_entries">
         <item>Standaard (1,6 seconden)</item>
-        <item>0,03 seconden</item>
-        <item>0,12 seconden</item>
-        <item>0,25 seconden</item>
         <item>0,5 seconden</item>
         <item>2 seconden</item>
         <item>5 seconden</item>
@@ -39,5 +38,9 @@
         <item>Alleen UMTS</item>
         <item>Alleen HSDPA</item>
         <item>HSDPA &amp; HSUPA</item>
+    </string-array>
+    <string-array name="tvout_system_entries">
+        <item>NTSC</item>
+        <item>PAL</item>
     </string-array>
 </resources>

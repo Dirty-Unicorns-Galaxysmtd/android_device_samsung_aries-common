@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The CyanogenMod Project
+<!-- 
+     Copyright (C) The CyanogenMod Project
+     Copyright (C) The OmiROM Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,17 +16,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">הגדרות Mackay</string>
+    <string name="app_name">הגדרות Galaxy S</string>
 
     <string name="category_screen_title">מסך</string>
-    <string name="color_tuning_title_head">כיול צבעים</string>
-    <string name="color_tuning_summary_head">כיל את צבעי המסך</string>
-    <string name="color_red_title">אדום</string>
-    <string name="color_green_title">ירוק</string>
-    <string name="color_blue_title">כחול</string>
-    <string name="color_red_gamma_title">תיקון גאמא אדום</string>
-    <string name="color_green_gamma_title">תיקון גאמא ירוק</string>
-    <string name="color_blue_gamma_title">תיקון גאמא כחול</string>
     <string name="mdnie_title_head">מצב mDNIe</string>
     <string name="mdnie_summary_head">התאם אישית את אופן פעולת מנוע התמונה הטבעית הדיגיטלי</string>
 
@@ -35,6 +29,14 @@
     <string name="category_radio_title">אלחוט</string>
     <string name="hspa_title_head">HSPA</string>
     <string name="hspa_summary_head">הפעל את HSDPA/HSUPA</string>
+
+    <string name="category_tvout_title">יציאת טלוויזיה</string>
+    <string name="tvout_enable_head">יציאת טלוויזיה</string>
+    <string name="tvout_enable_summary_nocable">כבל יציאת הטלוויזיה אינו מחובר</string>
+    <string name="tvout_enable_summary">כבל יציאת הטלוויזיה מחובר, סמן כדי להפעיל</string>
+    <string name="tvout_enable_summary_on">יציאת הטלוויזיה פועלת</string>
+    <string name="tvout_system_head">שיטת שידור</string>
+    <string name="tvout_system_summary">בחר את שיטת השידור לטלוויזיה</string>
 
     <string name="category_volume_boost_title">עוצמות קול</string>
     <string name="volume_boost_title_head">עוצמת קול בזמן שיחה</string>
@@ -55,12 +57,6 @@
     <string name="deskdock_audio_title_head">תחנת עגינה שולחנית</string>
     <string name="deskdock_audio_summary_on">קול בתחנת עגינה שולחנית מופעל</string>
     <string name="deskdock_audio_summary_off">קול בתחנת עגינה שולחנית מושבת</string>
-
-    <string name="category_vibration_title">רטט</string>
-    <string name="vibration_title_head">רטט</string>
-    <string name="vibration_summary_head">שלוט בעוצמת הרטט</string>
-    <string name="vibration_title">עוצמת רטט</string>
-    <string name="vibration_test_title">בדיקה</string>
 
     <string name="button_reset_title">איפוס</string>
 

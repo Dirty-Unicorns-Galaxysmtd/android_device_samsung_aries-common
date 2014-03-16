@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The CyanogenMod Project
+<!-- 
+     Copyright (C) The CyanogenMod Project
+     Copyright (C) The OmiROM Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,30 +16,23 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Mackay-instellingen</string>
-    <string name="mackay_settings_title">Mackay kernel instellingen</string>
-    <string name="mackay_settings_summary">In deze app kun je de instellingen van de Mackay kernel aanpassen. Gebruik op eigen risico\n\nAls je een andere kernel gebruikt zijn deze instellingen mogelijk niet functioneel of zorgen ze voor geforceerd afsluiten.</string>
+    <string name="app_name">Geavanceerde instellingen</string>
     <string name="category_screen_title">Scherm</string>
-    <string name="color_tuning_title_head">Kleuren regelen</string>
-    <string name="color_tuning_summary_head">Schermkleur kalibreren</string>
-    <string name="color_red_title">Rood</string>
-    <string name="color_green_title">Groen</string>
-    <string name="color_blue_title">Blauw</string>
-    <string name="color_red_gamma_title">Rood gamma</string>
-    <string name="color_green_gamma_title">Groen gamma</string>
-    <string name="color_blue_gamma_title">Blauw gamma</string>
     <string name="mdnie_title_head">mDNIe-modus</string>
     <string name="mdnie_summary_head">mDNIe-schermnabewerking aanpassen</string>
     <string name="category_touchkey_title">Aanraakknoppen</string>
     <string name="backlight_timeout_title_head">Time-out verlichting</string>
     <string name="backlight_timeout_summary_head">Vertraging van uitschakelen verlichting aanraakknoppen</string>
-    <string name="category_led_title">LED notificatie</string>
-    <string name="bln_head">BLN (herstart vereist)</string>
-    <string name="bln_on">BLN geactiveerd</string>
-    <string name="bln_off">Standaard CM-LED geactiveerd</string>
     <string name="category_radio_title">Radio</string>
     <string name="hspa_title_head">HSPA</string>
     <string name="hspa_summary_head">HSDPA/HSUPA inschakelen</string>
+    <string name="category_tvout_title">Tv-uitvoer</string>
+    <string name="tvout_enable_head">Tv-uitvoer</string>
+    <string name="tvout_enable_summary_nocable">Kabel voor tv-uitvoer niet verbonden</string>
+    <string name="tvout_enable_summary">Kabel voor tv-uitvoer verbonden, activeer om in te schakelen</string>
+    <string name="tvout_enable_summary_on">Tv-uitvoer ingeschakeld</string>
+    <string name="tvout_system_head">Tv-systeem</string>
+    <string name="tvout_system_summary">Tv-systeem instellen voor tv-uitvoer</string>
     <string name="category_volume_boost_title">Volume-instellingen</string>
     <string name="volume_boost_title_head">Volume-instellingen tijdens gesprek</string>
     <string name="volume_boost_summary_head">Instellingen voor volumeverhoging tijdens gesprek</string>
@@ -56,42 +51,9 @@
     <string name="deskdock_audio_title_head">Bureau-dock</string>
     <string name="deskdock_audio_summary_on">Bureau-dock-geluid ingeschakeld</string>
     <string name="deskdock_audio_summary_off">Bureau-dock-geluid uitgeschakeld</string>
-    <string name="category_vibration_title">Trillen</string>
-    <string name="vibration_title_head">Trillen</string>
-    <string name="vibration_summary_head">Trilintensiteit instellen</string>
-    <string name="vibration_title">Trilintensiteit</string>
-    <string name="vibration_test_title">Testen</string>
     <string name="button_reset_title">Herstellen</string>
-    <string name="category_wifi_title">WiFi energiemodus</string>
-    <string name="wifi_speed_head">Modus bij scherm uit</string>
-    <string name="wifi_speed_on">Snel</string>
-    <string name="wifi_speed_off">Energiebesparend</string>
-    <string name="category_charge_title">Snelladen</string>
-    <string name="fast_charge_head">Snelladen op USB</string>
-    <string name="fast_charge_on">Ingeschakeld</string>
-    <string name="fast_charge_off">Uitgeschakeld</string>
-    <string name="category_blx_preference_title">Acculevensduurverlenger (BLX)</string>
-    <string name="blx_title_head">Oplaadlimiet</string>
-    <string name="blx_summary_head">Stel oplaadlimiet in, wat mogelijk de levensduur van de accu verlengt</string>
-    <string name="blx_title">BLX - oplaadlimiet</string>
-    <string name="category_navigation_title">Navbar (reboot nodig)</string>
-    <string name="navbar_head">Activeer navbar</string>
-    <string name="navbar_off">Navbar gedeactiveerd</string>
-    <string name="navbar_on">Navbar geactiveerd</string>
-    <string name="category_touchwake_title">Touchwake</string>
-    <string name="touchwakeactive_head">Activeer touchwake</string>
-    <string name="touchwakeactive_off">Touchwake gedeactiveerd</string>
-    <string name="touchwakeactive_on">Touchwake geactiveerd</string>
-    <string name="category_touchwakesettings_title">Touchwake instellingen</string>
-    <string name="touchwakedelay_title_head">Touchwake-vertraging</string>
-    <string name="touchwakedelay_summary_head">Stel touchwake-vertraging in</string>
-    <string name="touchwakedelay_title">Touchwake-vertraging (ms)</string>
     <string name="generic_warning_title">Let op</string>
     <string name="imei_not_sane_title">Let op</string>
     <string name="imei_not_sane_message">Er is een probleem gevonden met uw telefoon. Het IMEI-nummer van uw telefoon is ongeldig. Hierdoor kunnen problemen optreden met uw mobiele netwerkverbinding, inclusief het niet kunnen bellen van het alarmnummer.</string>
     <string name="imei_not_sane_ok">OK</string>
-    <string name="category_apply_settings">Instelling automatisch toepassen na opstarten</string>
-    <string name="apply_title">Instellingen toepassen</string>
-    <string name="apply_summary_on">Instellingen worden automatisch toegepast</string>
-    <string name="apply_summary_off">Instellingen worden niet automatisch toegepast</string>
 </resources>
